@@ -12,7 +12,7 @@ public class FizzBuzzTest
   {
     Assert.assertEquals("1", FizzBuzz.convert(1));
   }
-  //2 produces 2
+  //2 produces 2 
   @Test
   public void test2Produces2()
   {
