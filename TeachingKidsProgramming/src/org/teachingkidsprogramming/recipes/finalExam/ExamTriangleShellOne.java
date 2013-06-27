@@ -28,9 +28,9 @@ public class ExamTriangleShellOne
     //      If the value of the large length is less than zero
     if (length < 0)
     {
+      //      Set the value of the length to the length plus 3
+      //          Set the value of the number of rotations to 6
     }
-    //      Set the value of the length to the length plus 3
-    //          Set the value of the number of rotations to 6
     //          Turn the tortoise 360 times the number of rotations, then divide that by the size of the shell 
     Tortoise.turn(360 * 6 / 5);
     drawTriangle(length);
